@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'loki';
+    src: url('loki-regular-webfont.woff') format('woff2'),
+         url('loki-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+  body {
+    font-family: loki;
+    background-color: rgb(34, 34, 38);
+    color: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    background-size: 89%;
+    background-position: center;
+    padding-top: 70px;
+  }
+
+  body:background {
+    background-repeat: no-repeat;
+    background-size: 95%;
+    background-position: bottom;
+  }
+
+  .navbar-inverse {
+    background-color: rgb(20, 20, 20);
+  }
+
+  .navimg {
+    position: relative;
+    bottom: 14px;
+  }
+
+  .jumbotron {
+    background-image: url('dusicperson.jpeg');
+    background-size: cover;
+  }
+
+  #content {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  hr {
+    overflow: visible; /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr:before { /* if u be seeing this then u be cheatin' bruv YOU BE CHEATIN AHHHHHHHHHHHHHHHHHHHHHHH! This is a message from DylanTN :| */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
